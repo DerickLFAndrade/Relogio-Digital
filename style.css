@@ -24,7 +24,7 @@ header {
     align-items: center;
     top: 0;
     width: 100vw;
-    height: 100px;
+    height: 70px;
     background: rgb(110, 108, 108);
 }
 .nav-bar {
@@ -70,12 +70,13 @@ header {
 }
 
 .texts {
-    
+    text-shadow: 5px  0px 1px  rgba(41, 184, 48, 0.5);
     margin-left: 10px;
     margin-top: 50px;
     font-size: 20px;
 }
 .textSeg {
+    text-shadow: 5px  0px 1px  rgba(41, 184, 48, 0.5);
     margin-left: 10px;
     margin-top: 50px;
     font-size: 20px;
@@ -158,7 +159,7 @@ footer {
   
     background: rgb(110, 108, 108);
     width: 100vw;
-    height: 100px;
+    height: 70px;
     
 }
 .lista {
@@ -169,12 +170,12 @@ footer {
     justify-content: space-around;
     background-color: black;
     width: 85vw;
-    height: 70px;
+    height: 50px;
     
 }
 .lista li {
     text-indent: -50px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: white;
    font-family: 'Orbitron', sans-serif;
     font-size: 20px;
@@ -253,11 +254,13 @@ header {
 }
 
 .texts {
+    text-shadow: 5px  0px 1px  rgba(41, 184, 48, 0.5);  
     margin-left: 10px;
     margin-top: 120px;
     font-size: 30px;
 }
 .textSeg {
+    text-shadow: 5px  0px 1px  rgba(41, 184, 48, 0.5);  
     margin-left: 10px;
     margin-top: 120px;
     font-size: 30px;
