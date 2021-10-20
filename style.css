@@ -12,8 +12,8 @@
    }
    .titulo {
         z-index: 5000;
-      text-shadow: 4px 1px 2px white;
-        font-size: 30px;
+      text-shadow: 4px 1px 4px white;
+        font-size: 20px;
         color:rgb(119, 245, 136);  
         font-family: 'Orbitron', sans-serif;
     }  
@@ -55,15 +55,15 @@ header {
     flex-direction: column;    
 }
 .rel {
-    border: 20px solid rgb(3, 3, 42);
+    border: 15px solid rgb(3, 3, 42);
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
     font-size: 40px;
     background:radial-gradient(rgb(119, 245, 136), rgb(39, 2, 73), rgb(59, 59, 165));
-    width: 300px;
-    height: 450px;
+    width: 200px;
+    height: 350px;
     box-shadow: 0px 15px 15px gray;
     border-radius: 50px;
     
@@ -72,21 +72,21 @@ header {
 .texts {
     
     margin-left: 10px;
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 20px;
 }
 .textSeg {
     margin-left: 10px;
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 20px;
 }
 .relogio-hr {
     border-radius: 20px;
-    width: 245px;
+    width: 170px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 130px;
+    height: 100px;
     background: black;
     font-family: 'Orbitron', sans-serif;
     box-shadow: 5px 5px 0px 1px;
@@ -94,11 +94,11 @@ header {
 }
 .relogio-min {
     border-radius: 20px;
-    width: 245px;
+    width: 170px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 130px;
+    height: 100px;
     background: black;
     font-family: 'Orbitron', sans-serif;
    box-shadow: 5px 5px 0px 1px;
@@ -106,11 +106,11 @@ header {
 }
 .relogio-seg {
     border-radius: 20px;
-    width: 245px;
+    width: 170px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 130px;
+    height: 100px;
     background: black;
     font-family: 'Orbitron', sans-serif;
     box-shadow: 5px 5px 0px 1px;
@@ -119,32 +119,32 @@ header {
 }
 .hora { 
     
-    margin-top: 35px;
+    margin-top: 25px;
     margin-left: 0px;
     
-    text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5);    
+    text-shadow: 5px  0px 1px  rgba(41, 184, 48, 0.5);   
 }
  
 .minutos { 
     
-    margin-top: 35px;
+    margin-top: 25px;
     margin-left: 0px;
     
-    text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5); 
+    text-shadow: 5px  0px 1px  rgba(41, 184, 48, 0.5); 
   
 }
 .segundos {
-    margin-top: 35px;
+    margin-top: 25px;
     margin-left: 0px;
   
    
-   text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5); 
+   text-shadow: 5px  0px 1px  rgba(41, 184, 48, 0.5); 
 }
 .obj {
     position: absolute;
-    margin-top: -500px;
-    width: 300px;
-    height: 50px;
+    margin-top: -380px;
+    width: 200px;
+    height: 40px;
     background: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
