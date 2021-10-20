@@ -24,3 +24,9 @@ function dataAtual () {
     rSegundos.innerHTML = segundos
 }
 setInterval(dataAtual, 1000)
+
+
+
+
+
+

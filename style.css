@@ -54,7 +54,7 @@ header {
     flex-direction: column;
     align-items: center;
     font-size: 70px;
-    background:rgb(47, 18, 100);
+    background:radial-gradient(rgb(119, 245, 136), rgb(39, 2, 73), rgb(59, 59, 165));
     width: 300px;
     height: 800px;
     box-shadow: 0px 15px 15px gray;
@@ -170,6 +170,7 @@ footer {
 
 @media (min-width: 740px) {
     .titulo {
+        z-index: 5000;
       text-shadow: 4px 1px 2px white;
         font-size: 70px;
         color:rgb(119, 245, 136);  
@@ -228,7 +229,7 @@ header {
     justify-content: space-around;
     align-items: center;
     font-size: 70px;
-    background:rgb(47, 18, 100);
+    background:radial-gradient(rgb(119, 245, 136), rgb(39, 2, 73), rgb(59, 59, 165));
     width: 830px;
     height: 250px;
     box-shadow: 0px 15px 15px gray;
@@ -304,6 +305,14 @@ header {
   
    
     text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5); 
+}
+.obj {
+    position: absolute;
+    margin-top: -280px;
+    width: 600px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 footer {
    position: fixed;
