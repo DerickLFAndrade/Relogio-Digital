@@ -5,10 +5,10 @@ function dataAtual () {
     let segundos = data.getSeconds();
 
 
-    let relogio = document.querySelector('[data-relogio]')
-    let rHora = relogio.querySelector('[data-hora]')
-    let rMinutos = relogio.querySelector('[data-minutos]')
-    let rSegundos = relogio.querySelector('[data-segundos]')
+    //let relogio = document.querySelector('[data-relogio]')
+    let rHora = document.querySelector('[data-hora]')
+    let rMinutos = document.querySelector('[data-minutos]')
+    let rSegundos = document.querySelector('[data-segundos]')
     if( hora < 10){
         hora = '0'+hora
     }

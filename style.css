@@ -50,63 +50,88 @@ header {
 .rel {
     border: 20px solid rgb(3, 3, 42);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    font-size: 70px;
     background:rgb(47, 18, 100);
-    width: 50vw;
-    height: 50vh;
-    
+    width: 300px;
+    height: 800px;
     box-shadow: 0px 15px 15px gray;
     border-radius: 50px;
     
 }
+
 .texts {
-   margin-top: -65px;
+    
+    margin-left: 10px;
+    margin-top: 120px;
     font-size: 30px;
 }
 .textSeg {
-   margin-top: -65px;
+    margin-left: 10px;
+    margin-top: 120px;
     font-size: 30px;
 }
-.relogio {
-    padding: 0px;
+.relogio-hr {
+    border-radius: 20px;
+    width: 245px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    height: 240px;
+    background: black;
     font-family: 'Orbitron', sans-serif;
-    font-size: 10vw;
-  margin-top: -50px;
-    color:rgb(119, 245, 136);
-    
+    box-shadow: 5px 5px 0px 1px;
+    color:rgb(119, 245, 136);  
 }
-.hora {
-  
-
-    text-align: center;
+.relogio-min {
+    border-radius: 20px;
+    width: 245px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 240px;
+    background: black;
+    font-family: 'Orbitron', sans-serif;
+   box-shadow: 5px 5px 0px 1px;
+    color:rgb(119, 245, 136);  
+}
+.relogio-seg {
+    border-radius: 20px;
+    width: 245px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 240px;
+    background: black;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 5px 5px 0px 1px;
     
-    text-shadow: 10px  5px 1px  rgba(0, 100, 156, 0.5);
-  
-    border-bottom: 5px solid rgb(53, 52, 52);
-    padding: 50px;
+    color:rgb(119, 245, 136);  
+}
+.hora { 
+    
+    margin-top: 70px;
+    margin-left: 0px;
+    
+    text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5);    
 }
  
-.minutos {
-   
-  
-   
-    text-shadow: 10px 5px  1px rgba(0, 100, 156, 0.5);
-   border-bottom: 5px solid rgb(53, 52, 52);
+.minutos { 
     
-    padding: 60px;
+    margin-top: 70px;
+    margin-left: 0px;
+    
+    text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5); 
+  
 }
 .segundos {
-    
-    
-    text-shadow: 10px  5px 1px  rgba(0, 100, 156, 0.56);
+    margin-top: 70px;
+    margin-left: 0px;
+  
    
-    padding: 60px;
+   text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5); 
 }
 footer {
    position: fixed;
@@ -128,12 +153,12 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: black;
-    width: 80vw;
+    width: 85vw;
     height: 70px;
     
 }
 .lista li {
-    
+    text-indent: -50px;
     margin-top: 20px;
     color: white;
    font-family: 'Orbitron', sans-serif;
@@ -144,7 +169,12 @@ footer {
 }
 
 @media (min-width: 740px) {
-    
+    .titulo {
+      text-shadow: 4px 1px 2px white;
+        font-size: 70px;
+        color:rgb(119, 245, 136);  
+        font-family: 'Orbitron', sans-serif;
+    }
 
 
     body {
@@ -195,60 +225,85 @@ header {
 .rel {
     border: 20px solid rgb(3, 3, 42);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    font-size: 70px;
     background:rgb(47, 18, 100);
-    width: 700px;
+    width: 830px;
     height: 250px;
     box-shadow: 0px 15px 15px gray;
     border-radius: 50px;
     
 }
+
 .texts {
-    margin-left: -90px;
+    margin-left: 10px;
+    margin-top: 120px;
     font-size: 30px;
 }
 .textSeg {
-    margin-left: -20px;
+    margin-left: 10px;
+    margin-top: 120px;
     font-size: 30px;
 }
-.relogio {
-
-    padding: 0px;
+.relogio-hr {
+    border-radius: 20px;
+    width: 245px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 225px;
+    background: black;
     font-family: 'Orbitron', sans-serif;
-    font-size: 70px;
-    margin-top: 0px;
-    margin-left: -100px;
-    color:rgb(119, 245, 136);
-    
+    box-shadow: 5px 5px 0px 1px;
+    color:rgb(119, 245, 136);  
 }
-.hora {
-  
-  
-    text-align: center;
+.relogio-min {
+    border-radius: 20px;
+    width: 245px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 225px;
+    background: black;
+    font-family: 'Orbitron', sans-serif;
+   box-shadow: 5px 5px 0px 1px;
+    color:rgb(119, 245, 136);  
+}
+.relogio-seg {
+    border-radius: 20px;
+    width: 245px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 225px;
+    background: black;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 5px 5px 0px 1px;
+    color:rgb(119, 245, 136);  
+}
+.hora { 
     
-    text-shadow: 10px  5px 1px  rgba(0, 100, 156, 0.5);
+    margin-top: 70px;
+    margin-left: 0px;
     
-    border-right: 5px solid rgb(53, 52, 52);
-    padding: 75px;
-    
+    text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5);    
 }
  
-.minutos {
-   
-   
-   
-    text-shadow: 10px 5px  1px rgba(0, 100, 156, 0.5);
-   border-right: 5px solid rgb(53, 52, 52);
-    margin-left: -50px;
-    padding: 75px;
+.minutos { 
+    
+    margin-top: 70px;
+    margin-left: 0px;
+    
+    text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5); 
+  
 }
 .segundos {
-    
-    width: 100px;
-    text-shadow: 10px  5px 1px  rgba(0, 100, 156, 0.56);
+    margin-top: 70px;
+    margin-left: 0px;
+  
    
-    padding: 10px;
+    text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5); 
 }
 footer {
    position: fixed;
@@ -275,7 +330,7 @@ footer {
     
 }
 .lista li {
-    
+    text-indent: -50px;
     margin-top: 20px;
     color: white;
    font-family: 'Orbitron', sans-serif;
