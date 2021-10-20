@@ -9,7 +9,14 @@
         align-items: center;
        margin: 0;
        background: gray;
-   }  
+   }
+   .titulo {
+        z-index: 5000;
+      text-shadow: 4px 1px 2px white;
+        font-size: 30px;
+        color:rgb(119, 245, 136);  
+        font-family: 'Orbitron', sans-serif;
+    }  
 header {
     position: fixed;
     display: flex;
@@ -53,10 +60,10 @@ header {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    font-size: 70px;
+    font-size: 40px;
     background:radial-gradient(rgb(119, 245, 136), rgb(39, 2, 73), rgb(59, 59, 165));
     width: 300px;
-    height: 800px;
+    height: 450px;
     box-shadow: 0px 15px 15px gray;
     border-radius: 50px;
     
@@ -65,13 +72,13 @@ header {
 .texts {
     
     margin-left: 10px;
-    margin-top: 120px;
-    font-size: 30px;
+    margin-top: 60px;
+    font-size: 20px;
 }
 .textSeg {
     margin-left: 10px;
-    margin-top: 120px;
-    font-size: 30px;
+    margin-top: 60px;
+    font-size: 20px;
 }
 .relogio-hr {
     border-radius: 20px;
@@ -79,7 +86,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 240px;
+    height: 130px;
     background: black;
     font-family: 'Orbitron', sans-serif;
     box-shadow: 5px 5px 0px 1px;
@@ -91,7 +98,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 240px;
+    height: 130px;
     background: black;
     font-family: 'Orbitron', sans-serif;
    box-shadow: 5px 5px 0px 1px;
@@ -103,7 +110,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 240px;
+    height: 130px;
     background: black;
     font-family: 'Orbitron', sans-serif;
     box-shadow: 5px 5px 0px 1px;
@@ -112,7 +119,7 @@ header {
 }
 .hora { 
     
-    margin-top: 70px;
+    margin-top: 35px;
     margin-left: 0px;
     
     text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5);    
@@ -120,18 +127,26 @@ header {
  
 .minutos { 
     
-    margin-top: 70px;
+    margin-top: 35px;
     margin-left: 0px;
     
     text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5); 
   
 }
 .segundos {
-    margin-top: 70px;
+    margin-top: 35px;
     margin-left: 0px;
   
    
    text-shadow: 10px  0px 1px  rgba(41, 184, 48, 0.5); 
+}
+.obj {
+    position: absolute;
+    margin-top: -500px;
+    width: 300px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 footer {
    position: fixed;
