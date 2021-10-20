@@ -1,18 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 
+
+@media (max-width: 739px) {
     body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
        margin: 0;
+       background: gray;
    }  
 header {
-
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     width: 100vw;
     height: 100px;
-    background: gray;
+    background: rgb(110, 108, 108);
 }
 .nav-bar {
    
-    
+  
     display: flex;
     justify-content: start;
     
@@ -28,8 +38,155 @@ header {
  
 }
 
-.container-Principal {
-    margin-top: 50px;
+.container-Principal{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.rel {
+    border: 20px solid rgb(3, 3, 42);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:rgb(47, 18, 100);
+    width: 50vw;
+    height: 50vh;
+    
+    box-shadow: 0px 15px 15px gray;
+    border-radius: 50px;
+    
+}
+.texts {
+   margin-top: -65px;
+    font-size: 30px;
+}
+.textSeg {
+   margin-top: -65px;
+    font-size: 30px;
+}
+.relogio {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10vw;
+  margin-top: -50px;
+    color:rgb(119, 245, 136);
+    
+}
+.hora {
+  
+
+    text-align: center;
+    
+    text-shadow: 10px  5px 1px  rgba(0, 100, 156, 0.5);
+  
+    border-bottom: 5px solid rgb(53, 52, 52);
+    padding: 50px;
+}
+ 
+.minutos {
+   
+  
+   
+    text-shadow: 10px 5px  1px rgba(0, 100, 156, 0.5);
+   border-bottom: 5px solid rgb(53, 52, 52);
+    
+    padding: 60px;
+}
+.segundos {
+    
+    
+    text-shadow: 10px  5px 1px  rgba(0, 100, 156, 0.56);
+   
+    padding: 60px;
+}
+footer {
+   position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+
+  
+    background: rgb(110, 108, 108);
+    width: 100vw;
+    height: 100px;
+    
+}
+.lista {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 80vw;
+    height: 70px;
+    
+}
+.lista li {
+    
+    margin-top: 20px;
+    color: white;
+   font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    
+    
+}
+}
+
+@media (min-width: 740px) {
+    
+
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       margin: 0;
+       background: gray;
+   }  
+header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    background: rgb(110, 108, 108);
+}
+.nav-bar {
+   
+  
+    display: flex;
+    justify-content: start;
+    
+     
+     
+}
+.ul-nav {
+    
+    display: flex;
+ list-style-type: none;
+ flex-direction: row;
+ align-items: center;
+ 
+}
+
+.container-Principal{
+    width: 100vw;
+    height: 100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,19 +197,28 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background:rgb(34, 2, 95);
+    background:rgb(47, 18, 100);
     width: 700px;
     height: 250px;
     box-shadow: 0px 15px 15px gray;
     border-radius: 50px;
     
 }
+.texts {
+    margin-left: -90px;
+    font-size: 30px;
+}
+.textSeg {
+    margin-left: -20px;
+    font-size: 30px;
+}
 .relogio {
+
     padding: 0px;
     font-family: 'Orbitron', sans-serif;
     font-size: 70px;
     margin-top: 0px;
-    margin-left: 45px;
+    margin-left: -100px;
     color:rgb(119, 245, 136);
     
 }
@@ -62,9 +228,10 @@ header {
     text-align: center;
     
     text-shadow: 10px  5px 1px  rgba(0, 100, 156, 0.5);
-    margin-left:-90px;
+    
     border-right: 5px solid rgb(53, 52, 52);
-    padding: 50px;
+    padding: 75px;
+    
 }
  
 .minutos {
@@ -73,8 +240,8 @@ header {
    
     text-shadow: 10px 5px  1px rgba(0, 100, 156, 0.5);
    border-right: 5px solid rgb(53, 52, 52);
-    
-    padding: 60px;
+    margin-left: -50px;
+    padding: 75px;
 }
 .segundos {
     
@@ -84,24 +251,37 @@ header {
     padding: 10px;
 }
 footer {
-    position: fixed;
+   position: fixed;
     display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 0;
-    margin:0;
+
+  
     background: rgb(110, 108, 108);
     width: 100vw;
     height: 100px;
+    
 }
 .lista {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px white;
     list-style-type: none;
     display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 80vw;
+    height: 70px;
     
 }
 .lista li {
+    
     margin-top: 20px;
     color: white;
    font-family: 'Orbitron', sans-serif;
     font-size: 20px;
-    margin-left: 18vw;
+    
+    
 }
 
+}
