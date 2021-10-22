@@ -1,32 +1,19 @@
-function dataAtual () {
-    let data = new Date();
-    let hora = data.getHours();
-    let minutos = data.getMinutes();
-    let segundos = data.getSeconds();
+(function () {
+    function dataAtual() {
+        const rHora = document.querySelector('[data-hora]');
+        const rMinutos = document.querySelector('[data-minutos]');
+        const rSegundos = document.querySelector('[data-segundos]');
+        const data = new Date();
 
+        let hora = data.getHours();
+        let minutos = data.getMinutes();
+        let segundos = data.getSeconds();
 
-    //let relogio = document.querySelector('[data-relogio]')
-    let rHora = document.querySelector('[data-hora]')
-    let rMinutos = document.querySelector('[data-minutos]')
-    let rSegundos = document.querySelector('[data-segundos]')
-    if( hora < 10){
-        hora = '0'+hora
+        rHora.innerHTML = `${hora < 10 ? '0' : ''}` + hora;
+        rMinutos.innerHTML = `${minutos < 10 ? '0' : ''}` + minutos;
+        rSegundos.innerHTML = `${segundos < 10 ? '0' : ''}` + segundos;
     }
-     if (minutos < 10) {
-        minutos = '0'+minutos
-    }
-     if (segundos < 10) {
-        segundos = '0'+segundos
-    }
-    
-    rHora.innerHTML = hora
-    rMinutos.innerHTML = minutos
-    rSegundos.innerHTML = segundos
-}
-setInterval(dataAtual, 1000)
 
-
-
-
-
+    setInterval(dataAtual, 1000);
+})();
 
